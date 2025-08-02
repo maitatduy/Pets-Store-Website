@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Reset margins/padding và thiết lập box-sizing */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove button default styles */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* Reset form elements */
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+:root {
+    --dark-blue: #003459;
+    --dark-blue-40: #0078CD;
+    --dark-blue-60: #00528C;
+    --dark-blue-80: #002A48;
+
+    --moon-yellow-40: #FCEED5;
+    --moon-yellow-60: #F1D092;
+    --moon-yellow-80: #EEC77E;
+    --moon-yellow: #F7DBA7;
+
+    --pink-red: #FF564F;
+    --green-light: #34C759;
+    --orange-shine: #FF912C;
+    --blue-sea: #00A7E7;
+
+    --neutral-color-100: #00171F;
+    --neutral-color-80: #242B33;
+    --neutral-color-60: #667479;
+    --neutral-color-40: #99A2A5;
+    --neutral-color-20: #CCD1D2;
+    --neutral-color-10: #EBEEEF;
+    --neutral-color-0: #FDFDFD;
+
+    --font-primary: 'Be Vietnam Pro', sans-serif;
+}
