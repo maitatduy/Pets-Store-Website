@@ -878,3 +878,135 @@ p {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+
+/* Footer */
+.footer {
+    background: linear-gradient(103deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7DA 104.24%);
+    border-radius: 40px 40px 0 0;
+    padding: 80px 0 40px 0;
+}
+
+.footer .inner-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-blue);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 40px;
+}
+
+.footer .inner-top .inner-title {
+    width: calc(40% - 20px);
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.footer .inner-top .inner-form {
+    flex: 1;
+    padding: 12px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .inner-top .inner-form input {
+    flex: 1;
+    padding: 14px 28px;
+    margin-right: 12px;
+    border-radius: 8px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border: 1px solid #CCD1D2;
+}
+
+.footer .inner-top .inner-form button {
+    width: calc(30% - 20px);
+    padding: 12px 28px;
+    background-color: var(--dark-blue);
+    border-radius: 8px;
+    color: #FDFDFD;
+}
+
+.footer .inner-middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .inner-middle .inner-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .inner-middle .inner-menu ul li {
+    margin-right: 60px;
+}
+
+.footer .inner-middle .inner-menu ul li a {
+    font-size: 16px;
+    width: 100%;
+    color: #00171F;
+    font-weight: 500;
+}
+
+.footer .inner-middle .inner-social {
+    margin-bottom: 60px;
+}
+
+.footer .inner-middle .inner-social ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .inner-middle .inner-social ul li {
+    margin-left: 40px;
+}
+
+.footer .inner-middle .inner-social ul li a {
+    font-size: 24px;
+    width: 100%;
+    color: #00171F;
+}
+
+.footer .inner-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .inner-bottom .inner-copyright {
+    color: #667479;
+    font-size: 14px;
+}
+
+.footer .inner-bottom .inner-menu img {
+    width: 100%;
+    aspect-ratio: 115/40;
+    object-fit: cover;
+}
+
+.footer .inner-bottom .inner-links ul {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .inner-bottom .inner-links ul li {
+    margin-left: 32px;
+}
+
+.footer .inner-bottom .inner-links ul li a {
+    font-size: 14px;
+    color: #667479;
+}
