@@ -215,3 +215,113 @@ p {
 .header .inner-language .inner-icon-down {
     color: var(--dark-blue-80);
 }
+
+/* Hero section */
+.hero {
+    overflow: hidden;
+    margin-top: -115px;
+    padding-top: 115px;
+    border-radius: 0 0 40px 40px;
+    background: linear-gradient(103deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+}
+
+.hero .inner-wrap {
+    display: flex;
+    position: relative;
+}
+
+.hero .inner-wrap .inner-bg-four {
+    position: absolute;
+    top: -12vw;
+    left: -18vw;
+}
+
+.hero .inner-content {
+    width: 50%;
+    margin-top: 80px;
+    position: relative;
+}
+
+.hero .inner-content .inner-bg-one {
+    position: absolute;
+    left: -1vw;
+    top: calc(1vw - 5px);
+}
+
+.hero .inner-content .inner-bg-one img {
+    width: 68px;
+    height: 68px;
+}
+
+.hero .inner-content .inner-bg-two {
+    position: absolute;
+    top: 32vw;
+    left: -25vw;
+}
+
+.hero .inner-content .inner-title {
+    position: relative;
+    z-index: 1;
+    text-transform: capitalize;
+    color: var(--dark-blue-80);
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.hero .inner-content .inner-sub-title {
+    font-size: 46px;
+    text-transform: capitalize;
+    color: var(--dark-blue-80);
+    margin-bottom: 24px;
+}
+
+.hero .inner-content .inner-description {
+    color: var(--neutral-color-80);
+    font-size: 16px;
+    padding-right: 100px;
+    margin-bottom: 34px;
+}
+
+.hero .inner-content .inner-buttons .inner-button-left {
+    padding: 14px 28px;
+    margin-right: 20px;
+    border-radius: 57px;
+    font-size: 16px;
+    color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+    display: inline-flex;
+    align-items: center;
+}
+
+.hero .inner-content .inner-buttons .inner-button-left i {
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+.hero .inner-content .inner-buttons .inner-button-right {
+    padding: 14px 30px;
+    border-radius: 57px;
+    font-size: 16px;
+    color: var(--neutral-color-0);
+    border: 2px solid var(--dark-blue);
+    background-color: var(--dark-blue);
+}
+
+.hero .inner-image  {
+    position: relative;
+    width: 50%;
+}
+
+.hero .inner-image .inner-hero-image {
+    width: 100%;
+    margin-bottom: -7px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero .inner-image .inner-bg-three {
+    position: absolute;
+    width: calc(100% + 200px);
+    bottom: 0;
+    left: -100px;
+}
