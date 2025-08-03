@@ -325,3 +325,102 @@ p {
     bottom: 0;
     left: -100px;
 }
+
+/* Pets showcase section */
+.pets-showcase {
+    padding: 60px 0;
+}
+
+.pets-showcase .inner-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.pets-showcase .inner-head .inner-content .inner-sub-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.pets-showcase .inner-head .inner-content .inner-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.pets-showcase .inner-head .inner-button {
+    padding: 12px 28px;
+    font-size: 14px;
+    color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+    border-radius: 57px;
+}
+
+.pets-showcase .inner-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pets-showcase .inner-main .inner-item {
+    width: calc(100%/4 - 84px/4);
+    padding: 8px 8px 0 8px;
+    border-radius: 12px;
+    margin-right: 28px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 28px -2px rgba(0, 0, 0, 0.2), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.08);
+}
+
+.pets-showcase .inner-main .inner-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.pets-showcase .inner-main .inner-item .inner-image {
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.pets-showcase .inner-main .inner-item .inner-image img {
+    width: 100%;
+}
+
+.pets-showcase .inner-main .inner-item .inner-info {
+    padding: 8px 8px 20px 8px;
+}
+
+.pets-showcase .inner-main .inner-item .inner-info .inner-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--neutral-color-100);
+    margin-bottom: 4px;
+}
+
+.pets-showcase .inner-main .inner-item .inner-info .inner-description {
+    font-size: 12px;
+    color: var(--neutral-color-60);
+    margin-bottom: 10px;
+}
+
+.pets-showcase .inner-main .inner-item .inner-info .inner-description span {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--neutral-color-60);
+    margin-right: 26px;
+    margin-left: 6px;
+}
+
+.pets-showcase .inner-main .inner-item .inner-info .inner-description span:nth-child(2)::after {
+    display: none;
+}
+
+.pets-showcase .inner-main .inner-item .inner-info .inner-price {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--neutral-color-100);
+}
