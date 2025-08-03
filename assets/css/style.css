@@ -230,12 +230,6 @@ p {
     position: relative;
 }
 
-.hero .inner-wrap .inner-bg-four {
-    position: absolute;
-    top: -12vw;
-    left: -18vw;
-}
-
 .hero .inner-content {
     width: 50%;
     margin-top: 80px;
@@ -251,12 +245,6 @@ p {
 .hero .inner-content .inner-bg-one img {
     width: 68px;
     height: 68px;
-}
-
-.hero .inner-content .inner-bg-two {
-    position: absolute;
-    top: 32vw;
-    left: -25vw;
 }
 
 .hero .inner-content .inner-title {
