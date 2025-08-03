@@ -523,3 +523,122 @@ p {
     top: -135px;
     left: -180px;
 }
+
+/* Pet products section */
+.pet-products {
+    padding: 60px 0;
+}
+
+.pet-products .inner-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.pet-products .inner-head .inner-content .inner-sub-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.pet-products .inner-head .inner-content .inner-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.pet-products .inner-head .inner-button {
+    padding: 12px 28px;
+    font-size: 14px;
+    color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+    border-radius: 57px;
+}
+
+.pet-products .inner-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pet-products .inner-main .inner-item {
+    width: calc(100%/4 - 84px/4);
+    padding: 8px 8px 0 8px;
+    border-radius: 12px;
+    margin-right: 28px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 28px -2px rgba(0, 0, 0, 0.2), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.08);
+}
+
+.pet-products .inner-main .inner-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.pet-products .inner-main .inner-item .inner-image {
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.pet-products .inner-main .inner-item .inner-image img {
+    width: 100%;
+}
+
+.pet-products .inner-main .inner-item .inner-info {
+    padding: 8px 8px 20px 8px;
+}
+
+.pet-products .inner-main .inner-item .inner-info .inner-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--neutral-color-100);
+    text-transform: capitalize;
+    margin-bottom: 4px;
+}
+
+.pet-products .inner-main .inner-item .inner-info .inner-description {
+    font-size: 12px;
+    color: var(--neutral-color-60);
+    margin-bottom: 10px;
+}
+
+.pet-products .inner-main .inner-item .inner-info .inner-description span {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--neutral-color-60);
+    margin-left: 6px;
+    margin-right: 8px;
+    position: relative;
+}
+
+.pet-products .inner-main .inner-item .inner-info .inner-price {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--neutral-color-100);
+}
+
+.pet-products .inner-main .inner-item .inner-gif {
+    padding: 6px 10px;
+    border-radius: 8px;
+    background-color: var(--moon-yellow-40);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pet-products .inner-main .inner-item .inner-gif img {
+    width: 20px;
+    height: 20px;
+    margin-right: 24px;
+}
+
+.pet-products .inner-main .inner-item .inner-gif span {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--dark-blue-80);
+}
