@@ -642,3 +642,54 @@ p {
     font-weight: bold;
     color: var(--dark-blue-80);
 }
+
+/* Pet sellers section */
+.pet-sellers {
+    padding: 40px 0;
+}
+
+.pet-sellers .inner-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.pet-sellers .inner-head .inner-content {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.pet-sellers .inner-head .inner-content span {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.pet-sellers .inner-head .inner-button {
+    padding: 12px 28px;
+    font-size: 14px;
+    color: var(--dark-blue);
+    border: 1px solid var(--dark-blue);
+    border-radius: 57px;
+}
+
+.pet-sellers .inner-main {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.pet-sellers .inner-main .inner-item {
+    width: calc(100%/7 - 120px/7);
+    margin-right: 20px;
+}
+
+.pet-sellers .inner-main .inner-item:last-child {
+    margin-right: 0;
+}
+
+.pet-sellers .inner-main .inner-item img {
+    width: 100%;
+}
