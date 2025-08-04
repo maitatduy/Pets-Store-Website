@@ -402,7 +402,6 @@ p {
     .hero .inner-content .inner-buttons {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         gap: 12px;
     }
 
@@ -508,6 +507,65 @@ p {
     font-size: 14px;
     font-weight: bold;
     color: var(--neutral-color-100);
+}
+
+@media (max-width: 1199.98px) {
+    .pets-showcase .inner-main .inner-item .inner-info .inner-description span {
+        margin: 0;
+    }
+
+    .pets-showcase .inner-main .inner-item .inner-info .inner-description span:first-child::after {
+        content: "\A";
+        white-space: pre;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .pets-showcase .inner-main {
+        gap: 12px;
+    }
+
+    .pets-showcase .inner-main .inner-item {
+        width: calc(100%/3 - 84px/3);
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pets-showcase {
+        padding: 40px 0;
+    }
+
+    .pets-showcase .inner-head .inner-sub-title {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+    .pets-showcase .inner-head .inner-title {
+        font-size: 20px;
+    }
+
+    .pets-showcase .inner-main .inner-item {
+        width: calc(100%/2 - 12px/2);
+        margin-bottom: 12px;
+    }
+
+    .pets-showcase .inner-main .inner-item .inner-info .inner-name {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    .pets-showcase .inner-main .inner-item .inner-info .inner-description {
+        margin-bottom: 8px;
+    }
+
+    .pets-showcase .inner-head .inner-button {
+        display: none;
+    }
+
+    .pets-showcase .inner-main .inner-item .inner-info {
+        padding: 8px;
+    }
 }
 
 /* Hero pets section */
