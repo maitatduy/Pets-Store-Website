@@ -410,6 +410,22 @@ p {
     }
 }
 
+@media (max-width: 424.98px) {
+    .hero .inner-content .inner-title {
+        font-size: 32px;
+    }
+
+    .hero .inner-content .inner-sub-title {
+        font-size: 24px;
+    }
+
+    .hero .inner-content .inner-buttons .inner-button-left, .hero .inner-content .inner-buttons .inner-button-right {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 /* Pets showcase section */
 .pets-showcase {
     padding: 60px 0;
@@ -565,6 +581,20 @@ p {
 
     .pets-showcase .inner-main .inner-item .inner-info {
         padding: 8px;
+    }
+}
+
+@media (max-width: 374.98px) {
+    .pets-showcase .inner-main {
+        gap: 12px;
+    }
+
+    .pets-showcase .inner-main .inner-item .inner-info .inner-name {
+        font-size: 12px;
+    }
+
+    .pets-showcase .inner-main .inner-item .inner-info .inner-price {
+        font-size: 12px;
     }
 }
 
@@ -737,6 +767,32 @@ p {
     }
 }
 
+@media (max-width: 424.98px) {
+    .hero-pets .inner-wrap .inner-content {
+        padding: 0 16px;
+    }
+
+    .hero-pets .inner-wrap .inner-content .inner-title {
+        font-size: 30px;
+    }
+
+    .hero-pets .inner-wrap .inner-content .inner-sub-title {
+        font-size: 18px;
+    }
+
+    .hero-pets .inner-wrap .inner-content .inner-description {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-pets .inner-wrap .inner-content .inner-buttons .inner-button-left, .hero-pets .inner-wrap .inner-content .inner-buttons .inner-button-right {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 /* Pet products section */
 .pet-products {
     padding: 60px 0;
@@ -901,6 +957,21 @@ p {
 
     .pet-products .inner-main .inner-item .inner-info .inner-price {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 374.98px) {
+    .pet-products .inner-main .inner-item .inner-info .inner-name {
+        font-size: 12px;
+    }
+
+    .pet-products .inner-main .inner-item .inner-gif span {
+        font-size: 10px;
+    }
+
+    .pet-products .inner-main .inner-item .inner-gif img {
+        width: 15px;
+        height: 15px;
     }
 }
 
@@ -1098,6 +1169,7 @@ p {
 
     .adoption .inner-wrap .inner-content .inner-description {
         margin-bottom: 20px;
+        max-width: 90%;
     }
 }
 
@@ -1134,6 +1206,12 @@ p {
     }
 }
 
+@media (max-width: 1199.98px) {
+    .adoption .inner-wrap .inner-content .inner-description {
+        text-align: center;
+    }
+}
+
 @media (max-width: 575.98px) {
     .adoption .inner-wrap .inner-content .inner-title {
         font-size: 36px;
@@ -1145,6 +1223,39 @@ p {
 
     .adoption .inner-content .inner-buttons .inner-button-left, .adoption .inner-content .inner-buttons .inner-button-right {
         padding: 10px 25px;
+    }
+}
+
+@media (max-width: 424.98px) {
+    .adoption .inner-content .inner-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .adoption .inner-wrap .inner-content .inner-sub-title {
+        text-align: center;
+    }
+
+    .adoption .inner-wrap .inner-content .inner-description {
+        width: 100%;
+        max-width: 80%;
+    }
+
+    .adoption .inner-content .inner-buttons .inner-button-left {
+        margin-right: 0;
+    }
+
+    .adoption .inner-content .inner-buttons .inner-button-left, .adoption .inner-content .inner-buttons .inner-button-right {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 374.98px) {
+    .adoption .inner-wrap {
+        padding: 0 16px;
     }
 }
 
