@@ -1232,6 +1232,28 @@ p {
     -webkit-box-orient: vertical;
 }
 
+@media (max-width: 991.98px) {
+    .knowledge .inner-wrap {
+        flex-wrap: wrap;
+    }
+
+    .knowledge .inner-wrap .inner-item {
+        width: calc(100% / 2 - 24px);
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .knowledge .box-head .inner-right {
+        display: none;
+    }
+
+    .knowledge .inner-wrap .inner-item {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}
+
 /* Footer */
 .footer {
     background: linear-gradient(103deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7DA 104.24%);
