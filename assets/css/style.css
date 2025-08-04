@@ -1086,6 +1086,68 @@ p {
     z-index: 1;
 }
 
+@media (max-width: 1199.98px) {
+    .adoption .inner-wrap .inner-content .inner-title {
+        font-size: 48px;
+        margin-top: 20px;
+    }
+
+    .adoption .inner-wrap .inner-content .inner-sub-title {
+        font-size: 28px;
+    }
+
+    .adoption .inner-wrap .inner-content .inner-description {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .adoption .inner-wrap {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .adoption .inner-wrap .inner-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .adoption .inner-wrap .inner-content .inner-bg-seven {
+        display: none;
+    }
+
+    .adoption .inner-wrap .inner-image .inner-bg-eight {
+        left: -30vw;
+    }
+
+    .adoption .inner-wrap .inner-image .adoption-image {
+        margin-bottom: -10px;
+    }
+
+    .adoption .inner-wrap .inner-image {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .adoption .inner-wrap .inner-content .inner-title {
+        font-size: 36px;
+    }
+
+    .adoption .inner-wrap .inner-content .inner-sub-title {
+        font-size: 24px;
+    }
+
+    .adoption .inner-content .inner-buttons .inner-button-left, .adoption .inner-content .inner-buttons .inner-button-right {
+        padding: 10px 25px;
+    }
+}
+
 /* Knowledge section */
 .knowledge {
     padding: 60px 0;
